@@ -13,7 +13,7 @@ db.connect((err) => {
     console.log('Connected to MySQL Database');
 });
 
-const client = mqtt.connect('mqtt://jakubsolarek.pl:1883');
+const client = mqtt.connect('YOUR MQTT SERVER');
 
 client.on('connect', () => {
     console.log('Connected to MQTT Broker');
